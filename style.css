@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16;
+  /*font-weight: lighter;*/
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  font-size: 32px;
+
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+
+}
+.container {
+  /*width: 700px;*/
+  margin: 0 auto;
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+.header {
+    height: 100vh;
+    background: linear-gradient( 135deg, rgba(27, 150, 226, 0.8), rgba(105, 82, 146, 0) );
+    text-align: center;
+    padding: 150px;
+}
+
+.header-text {
+    text-shadow: 1px 1px rgba(10, 10, 10, 0.1);
+}
+.header-background-gradient{
+  background-image: url('images/china-shanghai-50868.jpg');
+  background-size: cover;
+}
+.img-div{
+  width: 200px;
+  margin: 0 auto;
+}
+.img-circle {
+  border: solid 1px rgba(27, 150, 226, 0.8);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header-button-green{
+  display: inline-block;
+  background-color: rgb(32, 195, 181);
+  color: white;
+  padding: 20px 40px;
+  margin-top: 40px;
+  border: rgb(32, 195, 181) solid 1px;
+  border-radius: 10px;
+  font-weight: bolder;
+
+}
+
+.header-button-green:hover{
+  opacity: 0.9;
+  transition: 0.3;
+
+}
+.card-white {
+  /*width: 500px;*/
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(245, 245, 245, 0.8)
+
+}
+
+.card-white i {
+  font-size: 48px;
+  color: rgb(32, 195, 181);
+  margin: 10px;
+
+}
+.footer{
+  background-color: rgb(32, 195, 181);
+  padding: 20px;
+}
+
+.footer ul{
+  text-align: center;
+}
+.footer li {
+  display: inline-block;
+  padding: 0 20px
+}
+
+.footer i {
+  font-size: 36px;
+  color: white;
+}
+
+
+
